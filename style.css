@@ -168,3 +168,289 @@ body * {
 }
 
 /* ここまで リセットcss */
+
+/* ここからnews */
+
+.hd {
+    position: relative;
+    width: 100%;
+    margin: 64px, 0;
+}
+
+.hd-img {
+    width: 100%;
+    height: auto;
+}
+
+.hd-logo {
+    height: 24px;
+    width: auto;
+    position: absolute;
+    bottom: 16px;
+    left: 64px;
+}
+
+.nav-icons {
+    position: absolute;
+    bottom: 16px;
+    right: 32px;
+}
+
+.nav-icon-content {
+    margin-right: 32px;
+}
+
+.nav-icon {
+    width: 30px;
+    height: auto;
+}
+
+.news {
+    width: 100%;
+    margin: 64px 0;
+    padding: 64px;
+}
+
+.news-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.news-ttl {
+    height: 48px;
+    width: auto;
+}
+
+.button-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.button-txt {
+    font-size: 16px;
+    font-family: "Zen Maru Gothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;;
+    font-weight: 500;
+}
+
+.news-collection {
+    width: 100%;
+    display: flex;
+}
+
+.news-single {
+    width: 256px;
+    margin-right: 64px;
+}
+
+.news-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+}
+
+.news-single-ttl {
+    font-size: 18px;
+    font-family: "Zen Maru Gothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.news-txt {
+    font-size: 14px;
+    font-family: "Zen Maru Gothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;;
+    font-weight: 500;
+    line-height: 2;
+    margin-bottom: 24px;
+}
+
+.button-txt-bold {
+    font-size: 15px;
+    font-family: "Zen Maru Gothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;;
+    font-weight: 700;
+}
+
+.news-detail {
+    display: block;
+    margin-bottom: 40px;
+}
+
+.date-txt {
+    font-size: 14px;
+    font-family: "Zen Maru Gothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;;
+    font-weight: 700;
+}
+
+.news-date {
+    padding: 16px 0;
+    border-top: #000 1px solid;
+}
+
+/* ここからabout */
+
+.about {
+    margin: 0 240px 184px;
+}
+
+.about-ttl {
+    display: block;
+    font-size: 20px;
+    font-family: "Zen Maru Gothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;;
+    font-weight: 700;
+    line-height: 2;
+    margin-bottom: 80px;
+}
+
+.about-content {
+    display: flex;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.about-content-ttl {
+    flex: 0 0 20%;
+    font-size: 17.5px;
+    font-family: "Zen Maru Gothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.about-content-txt {
+    flex: 0 0 80%;
+    font-size: 17.5px;
+    font-family: "Zen Maru Gothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;;
+    font-weight: 500;
+    line-height: 2;
+}
+
+/* ここからproducts */
+
+.products {
+    margin: 0 192px 124px;
+}
+
+.products-tea, .products-scone {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.products-scone {
+    flex-direction: row-reverse;
+}
+
+.products-ttl-tea {
+    height: 56px;
+    transform: translate(-32px, 124px);
+}
+
+.products-ttl-scone-container {
+    width: 100%;
+    text-align: right;
+} 
+
+.products-ttl-scone {
+    height: 72px;
+    transform: translate(32px, 124px);
+}
+
+.products-img-content {
+    flex: 0 0 60%;
+}
+
+.products-img {
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.products-tea-content {
+    flex: 0 0 40%;
+    padding: 64px 48px;
+    background-color: #fff;
+    margin-left: -8%;
+}
+
+.products-scone-content {
+    flex: 0 0 40%;
+    padding: 64px 48px;
+    background-color: #fff;
+    margin-right: -8%;
+    z-index: 1;
+}
+
+.products-content-ttl {
+    font-size: 30px;
+    font-family: "Zen Maru Gothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;;
+    font-weight: 700;
+    line-height: 2;
+    margin-bottom: 32px;
+}
+
+.products-txt {
+    font-size: 16px;
+    font-family: "Zen Maru Gothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;;
+    font-weight: 500;
+    line-height: 2;
+    margin-bottom: 32px;
+}
+
+/* ここからfeature */
+
+.feature {
+    margin: 0 248px;
+}
+
+.feature-ttl {
+    font-size: 36px;
+    font-family: "Zen Maru Gothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: -3px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.feature01, .feature02 {
+    display: flex;
+    width: 100%;
+    margin-bottom: 96px;
+}
+
+.feature-img-container {
+    flex: 0 0 64%;
+}
+
+.feature-img {
+    object-fit: cover;
+    width: 100%;
+    height: 432px;
+}
+
+.feature01-content {
+    flex: 0 0 36%;
+    padding: 32px 0 32px 56px;
+}
+
+.feature02-content {
+    flex: 0 0 36%;
+    padding: 32px 56px 32px 0;
+}
+
+.feature-content-ttl {
+    font-size: 28.5px;
+    font-family: "Zen Maru Gothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -3px;
+    margin-bottom: 24px;
+}
+
+.feature-txt {
+    font-size: 16px;
+    font-family: "Zen Maru Gothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;;
+    font-weight: 500;
+    line-height: 1.7;
+    margin-bottom: 32px;
+}
